@@ -1,32 +1,16 @@
 # linux-flatpak-releases
 
-Public **Flatpak** installables for Mr-Aurevo-X Linux apps.
+Releases **Flatpak** publiques pour les apps Linux Mr-Aurevo-X (pas de sources).
 
-This repository does **not** contain application source code.
-Native zips / `.deb` / `tar.gz` live on [`linux-releases`](https://github.com/Mr-Aurevo-X/linux-releases) (no Flatpak there).
-
-## Crypto Tracker
-
-Flatpak: [org.mraurevox.CryptoTracker.flatpak](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.1.0/org.mraurevox.CryptoTracker.flatpak)
+## Gest Linux Pro 1.3.6
 
 ```bash
-sudo apt install flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-curl -fL -o org.mraurevox.CryptoTracker.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.1.0/org.mraurevox.CryptoTracker.flatpak
-flatpak install --user -y ./org.mraurevox.CryptoTracker.flatpak
-flatpak run org.mraurevox.CryptoTracker
-```
-
-## Gest Linux Pro
-
-Flatpak: [org.mraurevox.GestLinuxPro.flatpak](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.3.3/org.mraurevox.GestLinuxPro.flatpak)
-
-```bash
-sudo apt install flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 curl -fL -o org.mraurevox.GestLinuxPro.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.3.3/org.mraurevox.GestLinuxPro.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.3.6/org.mraurevox.GestLinuxPro.flatpak
 flatpak install --user -y ./org.mraurevox.GestLinuxPro.flatpak
 flatpak run org.mraurevox.GestLinuxPro
 ```
+
+Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
+
+Canal natif (`tar.gz` / `.deb`) : https://github.com/Mr-Aurevo-X/linux-releases
