@@ -7,15 +7,15 @@ Canal natif (zips / tar.gz) : https://github.com/Mr-Aurevo-X/linux-releases
 
 | App | Dernier tag | Paquet |
 | --- | --- | --- |
-| **Crypto Tracker** | [`crypto-tracker-v1.2.7`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.7) | `org.mraurevox.CryptoTracker.flatpak` |
-| **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.5`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.5) | `org.mraurevox.GestLinuxPro.flatpak` |
+| **Crypto Tracker** | [`crypto-tracker-v1.2.8`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.8) | `org.mraurevox.CryptoTracker.flatpak` |
+| **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.6`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.6) | `org.mraurevox.GestLinuxPro.flatpak` |
 | **MrAurevoX Kit** | [`MrAurevoX-Kit-v0.2.1`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v0.2.1) | `org.mraurevox.MrAurevoXKit.flatpak` |
 
-## Crypto Tracker 1.2.7
+## Crypto Tracker 1.2.8
 
 ```bash
 curl -fL -o org.mraurevox.CryptoTracker.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.7/org.mraurevox.CryptoTracker.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.8/org.mraurevox.CryptoTracker.flatpak
 flatpak install --user -y ./org.mraurevox.CryptoTracker.flatpak
 flatpak run org.mraurevox.CryptoTracker
 ```
@@ -28,20 +28,20 @@ Données : `~/.local/share/crypto-tracker/`
 - **Copyright © 2026 Mr-Aurevo-X.** Logiciel propriétaire.
 - **CGU :** fourni « en l’état » ; pas un conseil en investissement ; pas de copie / redistribution sans autorisation.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.local/share/crypto-tracker/`. Prix : CoinGecko / Binance. MAJ GitHub (désactivable).
-- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.7/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
+- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.8/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
 
-## Gest Linux Pro 1.4.5
+## Gest Linux Pro 1.4.6
 
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
 curl -fL -o org.mraurevox.GestLinuxPro.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.4.5/org.mraurevox.GestLinuxPro.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.4.6/org.mraurevox.GestLinuxPro.flatpak
 flatpak install --user -y ./org.mraurevox.GestLinuxPro.flatpak
 flatpak run org.mraurevox.GestLinuxPro
 ```
 
-Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
+Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49` (Mint 21.3 / Cinnamon X11 inclus).
 
 ### Mentions légales Gest Linux Pro (CGU / RGPD)
 
@@ -61,8 +61,8 @@ flatpak install --user -y ./org.mraurevox.MrAurevoXKit.flatpak
 flatpak run org.mraurevox.MrAurevoXKit
 ```
 
-Recherche, pipette, rename, hash (SHA-256/512/BLAKE2), images/EXIF, PDF, atelier (texte / encode / QR).  
 Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.  
+Recherche, pipette, hash, images/EXIF, PDF, atelier.  
 Données : `~/.config/mraurevox-kit/`, `~/.local/share/mraurevox-kit/`.
 
 ### Mentions légales MrAurevoX Kit (CGU / RGPD)
