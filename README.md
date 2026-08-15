@@ -2,11 +2,11 @@
 
 Releases **Flatpak** publiques pour les apps Linux Mr-Aurevo-X (pas de sources).
 
-## Gest Linux Pro 1.4.0
+## Gest Linux Pro 1.4.1
 
 ```bash
 curl -fL -o org.mraurevox.GestLinuxPro.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.4.0/org.mraurevox.GestLinuxPro.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.4.1/org.mraurevox.GestLinuxPro.flatpak
 flatpak install --user -y ./org.mraurevox.GestLinuxPro.flatpak
 flatpak run org.mraurevox.GestLinuxPro
 ```
