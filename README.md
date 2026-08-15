@@ -7,14 +7,14 @@ Canal natif (zips / tar.gz) : https://github.com/Mr-Aurevo-X/linux-releases
 
 | App | Dernier tag | Paquet |
 | --- | --- | --- |
-| **Crypto Tracker** | [`crypto-tracker-v1.2.0`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.0) | `org.mraurevox.CryptoTracker.flatpak` |
+| **Crypto Tracker** | [`crypto-tracker-v1.2.1`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.1) | `org.mraurevox.CryptoTracker.flatpak` |
 | **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.3`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.3) | `org.mraurevox.GestLinuxPro.flatpak` |
 
-## Crypto Tracker 1.2.0
+## Crypto Tracker 1.2.1
 
 ```bash
 curl -fL -o org.mraurevox.CryptoTracker.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.0/org.mraurevox.CryptoTracker.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.1/org.mraurevox.CryptoTracker.flatpak
 flatpak install --user -y ./org.mraurevox.CryptoTracker.flatpak
 flatpak run org.mraurevox.CryptoTracker
 ```
