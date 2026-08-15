@@ -8,7 +8,7 @@ Canal natif (zips / tar.gz) : https://github.com/Mr-Aurevo-X/linux-releases
 | App | Dernier tag | Paquet |
 | --- | --- | --- |
 | **Crypto Tracker** | [`crypto-tracker-v1.2.4`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.4) | `org.mraurevox.CryptoTracker.flatpak` |
-| **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.4`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.4) | `org.mraurevox.GestLinuxPro.flatpak` |
+| **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.5`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.5) | `org.mraurevox.GestLinuxPro.flatpak` |
 
 ## Crypto Tracker 1.2.4
 
@@ -22,13 +22,15 @@ flatpak run org.mraurevox.CryptoTracker
 Prérequis : [Flatpak](https://flatpak.org/setup/) + Flathub + runtime Freedesktop 25.08.  
 Données : `~/.local/share/crypto-tracker/`
 
-## Gest Linux Pro 1.4.4
+## Gest Linux Pro 1.4.5
 
 ```bash
 curl -fL -o org.mraurevox.GestLinuxPro.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.4.4/org.mraurevox.GestLinuxPro.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.4.5/org.mraurevox.GestLinuxPro.flatpak
 flatpak install --user -y ./org.mraurevox.GestLinuxPro.flatpak
 flatpak run org.mraurevox.GestLinuxPro
 ```
 
 Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
+
+© 2026 Mr-Aurevo-X. Gest Linux Pro : GPL-3.0-or-later.
