@@ -1,6 +1,7 @@
 # linux-flatpak-releases
 
-Releases **Flatpak** publiques pour les apps Linux Mr-Aurevo-X (pas de sources).
+Releases **Flatpak** publiques pour **toutes** les apps Linux Mr-Aurevo-X (pas de sources).  
+Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** (ne pas retirer une app de ce README).
 
 Canal natif (zips / tar.gz) : https://github.com/Mr-Aurevo-X/linux-releases
 
