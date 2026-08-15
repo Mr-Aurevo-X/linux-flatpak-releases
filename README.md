@@ -35,13 +35,15 @@ Données : `~/.local/share/crypto-tracker/`
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
-curl -fL -o org.mraurevox.GestLinuxPro.flatpak \
+wget -O org.mraurevox.GestLinuxPro.flatpak \
   https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.4.8/org.mraurevox.GestLinuxPro.flatpak
 flatpak install --user -y ./org.mraurevox.GestLinuxPro.flatpak
 flatpak run org.mraurevox.GestLinuxPro
 ```
 
-Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
+Mint 21.3 : `wget` est en général déjà là. Sinon `sudo apt install wget`.
+
+Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49` (Mint 21.3 / Cinnamon X11 inclus).
 
 ### Mentions légales Gest Linux Pro (CGU / RGPD)
 
