@@ -41,7 +41,7 @@ flatpak install --user -y ./org.mraurevox.GestLinuxPro.flatpak
 flatpak run org.mraurevox.GestLinuxPro
 ```
 
-Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49` (Mint 21.3 / Cinnamon X11 inclus).
+Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
 
 ### Mentions légales Gest Linux Pro (CGU / RGPD)
 
