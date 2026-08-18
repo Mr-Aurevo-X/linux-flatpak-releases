@@ -9,7 +9,7 @@ Canal natif (zips / tar.gz) : https://github.com/Mr-Aurevo-X/linux-releases
 | --- | --- | --- |
 | **Crypto Tracker** | [`crypto-tracker-v1.2.16`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.16) | `org.mraurevox.CryptoTracker.flatpak` |
 | **Gest Linux Pro** | [`Gest_Linux_Pro-v2.1.0`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v2.1.0) | `org.mraurevox.GestLinuxPro.flatpak` |
-| **MrAurevoX Kit** | [`MrAurevoX-Kit-v2.0.1`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v2.0.1) | `org.mraurevox.MrAurevoXKit.flatpak` |
+| **MrAurevoX Kit** | [`MrAurevoX-Kit-v2.0.2`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v2.0.2) | `org.mraurevox.MrAurevoXKit.flatpak` |
 
 ## Crypto Tracker 1.2.16
 
@@ -50,13 +50,13 @@ Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.config/gest-linux-pro/`, `~/.local/share/gest-linux-pro/`. MAJ GitHub désactivable.
 - Texte complet : [`LEGAL-Gest-Linux-Pro.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/blob/main/LEGAL-Gest-Linux-Pro.md).
 
-## MrAurevoX Kit 2.0.1
+## MrAurevoX Kit 2.0.2
 
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
 curl -fL -o org.mraurevox.MrAurevoXKit.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/MrAurevoX-Kit-v2.0.1/org.mraurevox.MrAurevoXKit.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/MrAurevoX-Kit-v2.0.2/org.mraurevox.MrAurevoXKit.flatpak
 flatpak install --user -y ./org.mraurevox.MrAurevoXKit.flatpak
 flatpak run org.mraurevox.MrAurevoXKit
 ```
