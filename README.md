@@ -9,7 +9,7 @@ Canal natif (zips / tar.gz) : https://github.com/Mr-Aurevo-X/linux-releases
 | --- | --- | --- |
 | **Crypto Tracker** | [`crypto-tracker-v1.2.16`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.16) | `org.mraurevox.CryptoTracker.flatpak` |
 | **Gest Linux Pro** | [`Gest_Linux_Pro-v2.0.0`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v2.0.0) | `org.mraurevox.GestLinuxPro.flatpak` |
-| **MrAurevoX Kit** | [`MrAurevoX-Kit-v1.1.0`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v1.1.0) | `org.mraurevox.MrAurevoXKit.flatpak` |
+| **MrAurevoX Kit** | [`MrAurevoX-Kit-v2.0.0`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v2.0.0) | `org.mraurevox.MrAurevoXKit.flatpak` |
 
 ## Crypto Tracker 1.2.16
 
@@ -21,7 +21,7 @@ flatpak run org.mraurevox.CryptoTracker
 ```
 
 Prérequis : [Flatpak](https://flatpak.org/setup/) + Flathub + runtime Freedesktop 25.08.  
-Graphes matplotlib inclus. Données : `~/.local/share/crypto-tracker/`
+Données : `~/.local/share/crypto-tracker/`
 
 ### Mentions légales Crypto Tracker (CGU / RGPD)
 
@@ -50,19 +50,19 @@ Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.config/gest-linux-pro/`, `~/.local/share/gest-linux-pro/`. MAJ GitHub désactivable.
 - Texte complet : [`LEGAL-Gest-Linux-Pro.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/blob/main/LEGAL-Gest-Linux-Pro.md).
 
-## MrAurevoX Kit 1.1.0
+## MrAurevoX Kit 2.0.0
 
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
 curl -fL -o org.mraurevox.MrAurevoXKit.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/MrAurevoX-Kit-v1.1.0/org.mraurevox.MrAurevoXKit.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/MrAurevoX-Kit-v2.0.0/org.mraurevox.MrAurevoXKit.flatpak
 flatpak install --user -y ./org.mraurevox.MrAurevoXKit.flatpak
 flatpak run org.mraurevox.MrAurevoXKit
 ```
 
+Recherche, pipette, rename, hash (SHA-256/512/BLAKE2), images/EXIF, PDF, atelier (texte / encode / QR).  
 Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.  
-Recherche, pipette, hash, images/EXIF, PDF, atelier.  
 Données : `~/.config/mraurevox-kit/`, `~/.local/share/mraurevox-kit/`.
 
 ### Mentions légales MrAurevoX Kit (CGU / RGPD)
