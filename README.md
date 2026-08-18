@@ -7,15 +7,15 @@ Canal natif (zips / tar.gz) : https://github.com/Mr-Aurevo-X/linux-releases
 
 | App | Dernier tag | Paquet |
 | --- | --- | --- |
-| **Crypto Tracker** | [`crypto-tracker-v1.2.9`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.9) | `org.mraurevox.CryptoTracker.flatpak` |
+| **Crypto Tracker** | [`crypto-tracker-v1.2.16`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.16) | `org.mraurevox.CryptoTracker.flatpak` |
 | **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.13`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.13) | `org.mraurevox.GestLinuxPro.flatpak` |
-| **MrAurevoX Kit** | [`MrAurevoX-Kit-v1.0.0`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v1.0.0) | `org.mraurevox.MrAurevoXKit.flatpak` |
+| **MrAurevoX Kit** | [`MrAurevoX-Kit-v1.1.0`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v1.1.0) | `org.mraurevox.MrAurevoXKit.flatpak` |
 
-## Crypto Tracker 1.2.9
+## Crypto Tracker 1.2.16
 
 ```bash
 curl -fL -o org.mraurevox.CryptoTracker.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.9/org.mraurevox.CryptoTracker.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.16/org.mraurevox.CryptoTracker.flatpak
 flatpak install --user -y ./org.mraurevox.CryptoTracker.flatpak
 flatpak run org.mraurevox.CryptoTracker
 ```
@@ -28,23 +28,20 @@ Données : `~/.local/share/crypto-tracker/`
 - **Copyright © 2026 Mr-Aurevo-X.** Logiciel propriétaire.
 - **CGU :** fourni « en l’état » ; pas un conseil en investissement ; pas de copie / redistribution sans autorisation.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.local/share/crypto-tracker/`. Prix : CoinGecko / Binance. MAJ GitHub (désactivable).
-- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.9/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
+- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.16/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
 
 ## Gest Linux Pro 1.4.13
 
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
-wget -O org.mraurevox.GestLinuxPro.flatpak \
+curl -fL -o org.mraurevox.GestLinuxPro.flatpak \
   https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v1.4.13/org.mraurevox.GestLinuxPro.flatpak
 flatpak install --user -y ./org.mraurevox.GestLinuxPro.flatpak
 flatpak run org.mraurevox.GestLinuxPro
 ```
 
-Install unique pour **toutes les distros** (CachyOS, Arch, Fedora, Ubuntu, Mint, …).  
-**Plus d’install native** (`install.sh` / tar.gz). Ancienne native : `bash ~/.local/share/gest-linux-pro/uninstall.sh`
-
-`wget` suffit. Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
+Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
 
 ### Mentions légales Gest Linux Pro (CGU / RGPD)
 
@@ -53,19 +50,19 @@ Install unique pour **toutes les distros** (CachyOS, Arch, Fedora, Ubuntu, Mint,
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.config/gest-linux-pro/`, `~/.local/share/gest-linux-pro/`. MAJ GitHub désactivable.
 - Texte complet : [`LEGAL-Gest-Linux-Pro.md`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/blob/main/LEGAL-Gest-Linux-Pro.md).
 
-## MrAurevoX Kit 1.0.0
+## MrAurevoX Kit 1.1.0
 
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
 curl -fL -o org.mraurevox.MrAurevoXKit.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/MrAurevoX-Kit-v1.0.0/org.mraurevox.MrAurevoXKit.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/MrAurevoX-Kit-v1.1.0/org.mraurevox.MrAurevoXKit.flatpak
 flatpak install --user -y ./org.mraurevox.MrAurevoXKit.flatpak
 flatpak run org.mraurevox.MrAurevoXKit
 ```
 
+Recherche, pipette, rename, hash (SHA-256/512/BLAKE2), images/EXIF, PDF, atelier (texte / encode / QR).  
 Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.  
-Recherche, pipette, hash, images/EXIF, PDF, atelier.  
 Données : `~/.config/mraurevox-kit/`, `~/.local/share/mraurevox-kit/`.
 
 ### Mentions légales MrAurevoX Kit (CGU / RGPD)
