@@ -35,13 +35,16 @@ Données : `~/.local/share/crypto-tracker/`
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
-curl -fL -o org.mraurevox.GestLinuxPro.flatpak \
+wget -O org.mraurevox.GestLinuxPro.flatpak \
   https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v2.1.0/org.mraurevox.GestLinuxPro.flatpak
 flatpak install --user -y ./org.mraurevox.GestLinuxPro.flatpak
 flatpak run org.mraurevox.GestLinuxPro
 ```
 
-Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
+Install unique pour **toutes les distros** (CachyOS, Arch, Fedora, Ubuntu, Mint, …).  
+**Plus d’install native** (`install.sh` / tar.gz). Ancienne native : `bash ~/.local/share/gest-linux-pro/uninstall.sh`
+
+`wget` suffit. Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
 
 ### Mentions légales Gest Linux Pro (CGU / RGPD)
 
@@ -61,8 +64,8 @@ flatpak install --user -y ./org.mraurevox.MrAurevoXKit.flatpak
 flatpak run org.mraurevox.MrAurevoXKit
 ```
 
-Recherche, pipette, rename, hash (SHA-256/512/BLAKE2), images/EXIF, PDF, atelier (texte / encode / QR).  
 Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.  
+Recherche, pipette, hash, images/EXIF, PDF, atelier.  
 Données : `~/.config/mraurevox-kit/`, `~/.local/share/mraurevox-kit/`.
 
 ### Mentions légales MrAurevoX Kit (CGU / RGPD)
