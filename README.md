@@ -17,11 +17,16 @@ Canal natif (zips / tar.gz) : https://github.com/Mr-Aurevo-X/linux-releases
 curl -fL -o org.mraurevox.CryptoTracker.flatpak \
   https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v1.2.17/org.mraurevox.CryptoTracker.flatpak
 flatpak install --user -y ./org.mraurevox.CryptoTracker.flatpak
+mkdir -p ~/.local/share/applications
+ln -sfn ~/.local/share/flatpak/exports/share/applications/org.mraurevox.CryptoTracker.desktop \
+  ~/.local/share/applications/org.mraurevox.CryptoTracker.desktop
+update-desktop-database ~/.local/share/applications 2>/dev/null || true
 flatpak run org.mraurevox.CryptoTracker
 ```
 
+Menu Démarrer : cherche « Crypto Tracker » (relance le menu si besoin).  
 Prérequis : [Flatpak](https://flatpak.org/setup/) + Flathub + runtime Freedesktop 25.08.  
-Données : `~/.local/share/crypto-tracker/`
+Graphes matplotlib inclus. Données : `~/.local/share/crypto-tracker/`
 
 ### Mentions légales Crypto Tracker (CGU / RGPD)
 
@@ -35,16 +40,13 @@ Données : `~/.local/share/crypto-tracker/`
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
-wget -O org.mraurevox.GestLinuxPro.flatpak \
+curl -fL -o org.mraurevox.GestLinuxPro.flatpak \
   https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v2.2.1/org.mraurevox.GestLinuxPro.flatpak
 flatpak install --user -y ./org.mraurevox.GestLinuxPro.flatpak
 flatpak run org.mraurevox.GestLinuxPro
 ```
 
-Install unique pour **toutes les distros** (CachyOS, Arch, Fedora, Ubuntu, Mint, …).  
-**Plus d’install native** (`install.sh` / tar.gz). Ancienne native : `bash ~/.local/share/gest-linux-pro/uninstall.sh`
-
-`wget` suffit. Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
+Prérequis : Flatpak + Flathub + runtime `org.gnome.Platform//49`.
 
 ### Mentions légales Gest Linux Pro (CGU / RGPD)
 
