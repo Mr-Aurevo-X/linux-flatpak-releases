@@ -12,6 +12,10 @@ Canal natif (zips) : https://github.com/Mr-Aurevo-X/linux-releases
 
 ## Crypto Tracker 2.0.15
 
+Même **2.0.15** que les zips natifs ([linux-releases](https://github.com/Mr-Aurevo-X/linux-releases)) — une app, deux canaux.
+
+**2.0.x (résumé)** : portefeuille local FIFO, graphiques matplotlib, logos CoinGecko (cache `~/.local/share/crypto-tracker/icon_cache/`), molette sur les longues listes (Linux, Tk 9), onglet Allocation.
+
 ```bash
 curl -fL -o org.mraurevox.CryptoTracker.flatpak \
   https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/crypto-tracker-v2.0.15/org.mraurevox.CryptoTracker.flatpak
