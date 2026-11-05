@@ -21,10 +21,10 @@ Mr-Aurevo-X **ne collecte aucune donnée personnelle**. Pas de compte, pas de t�
 - Pas de traitement par l’éditeur : suppression = effacer ce dossier ou désinstaller.
 - **Réseau :**
   - Prix : HTTPS vers `api.coingecko.com` et `api.binance.com` (ces opérateurs voient l’IP selon **leur** politique).
-  - Mises à jour (optionnel, Paramètres) : HTTPS vers GitHub (`api.github.com`, dépôts publics `linux-releases` / `linux-flatpak-releases`). GitHub peut voir l’IP et le User-Agent. Désactivable.
+  - Mises à jour (optionnel, Paramètres) : HTTPS vers GitHub (`api.github.com`, dépôt public `linux-flatpak-releases`). GitHub peut voir l’IP et le User-Agent. Désactivable.
 - Pas de cookies. Pas de sous-traitant de l’éditeur hors ces appels HTTPS.
 
-Contact : Mr-Aurevo-X (canaux publics GitHub `linux-releases` / `linux-flatpak-releases`).
+Contact : Mr-Aurevo-X (canal public GitHub `linux-flatpak-releases`).
 
 <!-- lang:en -->
 # Legal notice — Crypto Tracker
@@ -49,7 +49,7 @@ Mr-Aurevo-X **collects no personal data**. No account, no telemetry, no ads, no 
 - No processing by the publisher: delete that folder or uninstall.
 - **Network:**
   - Prices: HTTPS to `api.coingecko.com` and `api.binance.com` (those operators may see your IP under **their** policy).
-  - Updates (optional, Settings): HTTPS to GitHub (`api.github.com`, public `linux-releases` / `linux-flatpak-releases`). GitHub may see IP and User-Agent. Can be disabled.
+  - Updates (optional, Settings): HTTPS to GitHub (`api.github.com`, public `linux-flatpak-releases`). GitHub may see IP and User-Agent. Can be disabled.
 - No cookies. No publisher processors besides those HTTPS calls.
 
-Contact: Mr-Aurevo-X (public GitHub channels `linux-releases` / `linux-flatpak-releases`).
+Contact: Mr-Aurevo-X (public GitHub channel `linux-flatpak-releases`).
