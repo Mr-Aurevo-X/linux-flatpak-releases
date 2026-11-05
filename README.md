@@ -1,8 +1,7 @@
 # linux-flatpak-releases
 
-Releases **Flatpak** publiques pour **Crypto Tracker** (pas de sources).
-
-Canal natif (zips) : https://github.com/Mr-Aurevo-X/linux-releases
+Releases **Flatpak** publiques pour **Crypto Tracker** (pas de sources).  
+Canal **unique** — les zips Binaire / Portable ne sont plus publiés.
 
 **UtilKit** et **Gest Linux Pro** : releases sur leurs dépôts publics ([UtilKit](https://github.com/Mr-Aurevo-X/UtilKit), [Gest_Linux_Pro](https://github.com/Mr-Aurevo-X/Gest_Linux_Pro)).
 
@@ -11,8 +10,6 @@ Canal natif (zips) : https://github.com/Mr-Aurevo-X/linux-releases
 | **Crypto Tracker** | [`crypto-tracker-v2.0.16`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v2.0.16) | `org.mraurevox.CryptoTracker.flatpak` |
 
 ## Crypto Tracker 2.0.16
-
-Même **2.0.16** que les zips natifs ([linux-releases](https://github.com/Mr-Aurevo-X/linux-releases)) — une app, deux canaux.
 
 **2.0.x (résumé)** : portefeuille local FIFO, graphiques matplotlib, logos CoinGecko (cache `~/.local/share/crypto-tracker/icon_cache/`), molette sur les longues listes (Linux, Tk 9), onglet Allocation.
 
@@ -30,6 +27,8 @@ flatpak run org.mraurevox.CryptoTracker
 Menu Démarrer : cherche « Crypto Tracker » (relance le menu si besoin).  
 Prérequis : [Flatpak](https://flatpak.org/setup/) + Flathub + runtime Freedesktop 25.08.  
 Graphes matplotlib inclus. Données : `~/.local/share/crypto-tracker/`
+
+Depuis un ancien zip Binaire : conservez `~/.local/share/crypto-tracker/`, supprimez le dossier du zip, installez le Flatpak ci-dessus.
 
 ### Mentions légales Crypto Tracker (CGU / RGPD)
 
